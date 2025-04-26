@@ -23,4 +23,8 @@ void ThreadSondes::ecritToutesTemperaturesLue()
 void ThreadSondes::run()
 {
 	qDebug() << "run()";
+	/*while(1) { 
+		m_threadSondesTemperatures ->ecritToutesTemperatures();
+		sleep(15);
+	}*/
 }
